@@ -1,0 +1,188 @@
+/* Global resets */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  color: #424242;
+  line-height: 1.4;
+  width: 100%;
+  position: relative;
+  min-width: 320px;
+}
+
+/* Fonts */
+
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+  max-width: 630px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* COLORS: 
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS goes here */
+
+.contribution-left {
+  background: #777;
+  width: 100%;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: 500;
+  border-radius: 0.2em;
+}
+
+.contribution-left {
+  font-size: 1.5em;
+  position: relative;
+}
+
+.contribution-left:after,
+.contribution-left:before {
+  border: 7px solid transparent;
+  position: absolute;
+  content: '';
+  left: 90%;
+  top: 100%;
+}
+
+.contribution-left:after {
+  border-top: 10px solid #777;
+  bottom: -8px;
+}
+
+.contribution-left:before {
+  border-top: 10px solid #777;
+  bottom: -6px;
+}
+
+.contribution-left p {
+  color: #fff;
+  padding: 9px;
+}
+
+.donate-box {
+  width: 100%;
+  height: 250px;
+  margin-top: 20px;
+  border: 2px solid #eaeaea;
+}
+
+.donate-box .donate-content {
+  padding: 10px 20px;
+}
+
+.donate-box p {
+  font-size: 16px;
+  color: #777;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.donate-box p span {
+  color: #EF5F3C;
+}
+
+.donate-box .donate-progress {
+  border-bottom: 2px;
+  border-color: #eaeaea;
+  border-bottom-style: solid;
+}
+
+.donate-bar {
+  background-color: #EF5F3C;
+  width: 73%;
+  height: 15px;
+}
+
+.btn-area {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.custom-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 2px solid #eaeaea;
+  color: #777;
+  background: #fff;
+}
+
+.custom-btn:hover {
+  background: #e9e9e9;
+}
+
+.givenow {
+  height: 50px;
+}
+
+.givenow input {
+  height: 50px;
+  float: left;
+  width: 45%;
+  padding: 5px;
+  border: 2px solid #eaeaea;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #777;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.givenow button {
+  height: 50px;
+  float: left;
+  width: 45%;
+  background: #1CBC2C;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.givenow button:hover {
+  background: #1CBC2C;
+}
+
+@media screen and (max-width: 480px) {
+  .contribution-left {
+    font-size: 1.2em;
+    position: relative;
+  }
+}
